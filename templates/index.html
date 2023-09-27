@@ -8,10 +8,6 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
     />
-    <!-- <link
-      rel="stylesheet"
-      href="{{ url_for('static', filename='css/bootstrap.css') }}"
-    /> -->
 
     <title>Weather App</title>
     <link rel="stylesheet" href="../static/style.css">
@@ -33,33 +29,6 @@
       <br/>
       <button type="submit" class="submit">SEARCH</button>
     </form>
-
-    <!-- <div class="container">
-      <div class="row">
-        <div class="col">
-          <div class="card text-dark bg-white mb-3" style="max-width: 20rem">
-            <div class="card-body">
-              <h1 class="card-title">{{ city_name }}</h1>
-              <div class="info">
-                <div class="right">
-                  <h3 class="card-text">{{ temp }}&deg;C</h3>
-                  <h4 class="card-text">{{ weather }}</h4>
-                </div>
-                <div class="left">
-                  &nbsp;&nbsp;
-
-                  <img src="http://openweathermap.org/img/w/{{icon}}.png" alt="" />
-                </div>
-              </div>
-
-              <br />
-              <h5>MIN TEMP : {{min_temp}}&deg;C</h5>
-              <h5>MAX TEMP : {{max_temp}}&deg;C</h5>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
 
     <div class="container">
       <h1>{{ city_name }}</h1>
